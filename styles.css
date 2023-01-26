@@ -3,9 +3,9 @@
     --cinza-principal: #393E46;
     --azul-principal: #00ADB5;
 
-    --altura-cabecalho: 200px;
-    --altura-cursos: 200px;
-    --altura-cards: 100px;
+    --altura-cabecalho: 220px;
+    --altura-cursos: 300px;
+    --altura-cards: 150px;
 }
 
 body{
@@ -40,6 +40,8 @@ a:link {
     display: flex;
     justify-content: space-between;
     margin: 20px;
+    margin-bottom: 30px;
+
 }
 
 .foto{
@@ -57,7 +59,7 @@ a:link {
 .cabecalho__texto{
     height: 100%;
     //width: 500px;
-    width: 40%;
+    width: 50%;
 }
 
 .nome{
@@ -67,10 +69,9 @@ a:link {
 }
 
 .carta__apresentacao{
-    height: 80%;
-    width: 100%;
     background-color: var(--cinza-principal);
-    line-height: 20px;
+    font-size: 20px;
+    line-height: 25px;
     border-radius: 2%;
     padding: 5px;
 }
@@ -111,7 +112,7 @@ a:link {
 }
 
 .cursos__paragrafo{
-    font-size: 24px;
+    font-size: 28px;
     margin: 20px;
     border-bottom-style: solid;
     border-width: 5px;
@@ -129,7 +130,6 @@ a:link {
 .cursos__card{
     display: flex;
     height: var(--altura-cards);
-
     margin: 20px;
 }
 
@@ -138,16 +138,19 @@ a:link {
 }
 
 .cursos__texto{
+    font-size: 20px;
+    line-height: 22px;
     margin-left: 20px;
     width: 300px;
 }
 
 .cursos__nome{
+    font-size: 22px;
     margin-bottom: 15px;
 }
 
 .formacao__paragrafo{
-    font-size: 24px;
+    font-size: 28px;
     margin: 20px;
     border-bottom-style: solid;
     border-width: 5px;
@@ -174,7 +177,7 @@ a:link {
 }
 
 .formacao__descricao{
-    font-size: 16px;
-    line-height: 18px;
+    font-size: 20px;
+    line-height: 22px;
     margin: 5px;
 }
