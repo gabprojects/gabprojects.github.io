@@ -1,0 +1,180 @@
+:root{
+    --cor-de-fundo: #222831;
+    --cinza-principal: #393E46;
+    --azul-principal: #00ADB5;
+
+    --altura-cabecalho: 200px;
+    --altura-cursos: 200px;
+    --altura-cards: 100px;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--azul-principal);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a:link {
+    color: var(--azul-principal);
+ }
+ 
+ a:visited {
+     color: var(--azul-principal);
+ }
+ 
+ a:hover {
+     color: #FFFFFF;
+ }
+ 
+ a:active {
+    color: #FFFFFF;
+ }
+
+.cabecalho{
+    height: var(--altura-cabecalho);
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.foto{
+    height: var(--altura-cabecalho);
+    //width: 150px;
+    width 15%;
+}
+
+.foto__perfil{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+
+.cabecalho__texto{
+    height: 100%;
+    //width: 500px;
+    width: 40%;
+}
+
+.nome{
+    height: 20%;
+    width: 100%;
+    font-size: 32px;
+}
+
+.carta__apresentacao{
+    height: 80%;
+    width: 100%;
+    background-color: var(--cinza-principal);
+    line-height: 20px;
+    border-radius: 2%;
+    padding: 5px;
+}
+
+.contato{
+    height: 100%;
+    //width: 250px;
+   
+    display: flex;
+    flex-direction: column;
+}
+
+.contato__topico{
+    height: 20%;
+    font-size: 32px;
+}
+
+.contato__canais{
+    height: 80%;
+    background-color: var(--cinza-principal);
+    border-radius: 2%;
+}
+
+.contato__elemento{
+    display: flex;
+    align-items: center;
+}
+
+.contato__icone{
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
+
+.contato__info{
+    font-size: 20px;
+    margin: 5px;
+}
+
+.cursos__paragrafo{
+    font-size: 24px;
+    margin: 20px;
+    border-bottom-style: solid;
+    border-width: 5px;
+    border-bottom-color: var(--cinza-principal);
+}
+
+.cursos__estrutura{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.cursos__card{
+    display: flex;
+    height: var(--altura-cards);
+
+    margin: 20px;
+}
+
+.cursos__imagem{
+
+}
+
+.cursos__texto{
+    margin-left: 20px;
+    width: 300px;
+}
+
+.cursos__nome{
+    margin-bottom: 15px;
+}
+
+.formacao__paragrafo{
+    font-size: 24px;
+    margin: 20px;
+    border-bottom-style: solid;
+    border-width: 5px;
+    border-bottom-color: var(--cinza-principal);
+}
+
+.formacao__estrutura{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.formacao__dados{
+    background-color: var(--cinza-principal);
+    font-size: 18px;
+    border-radius: 2%;
+    width:400px;
+}
+
+.formacao__texto{
+    font-size: 24px;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+.formacao__descricao{
+    font-size: 16px;
+    line-height: 18px;
+    margin: 5px;
+}
