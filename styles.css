@@ -1,16 +1,23 @@
 :root{
-    --cor-de-fundo: #222831;
+    --cor-de-fundo: #212730;
     --cinza-principal: #393E46;
-    --azul-principal: #00ADB5;
+    --azul-principal: #00EDFA;
+
+    --fonte-principal: "Roboto";
 
     --altura-cabecalho: 220px;
-    --altura-cursos: 300px;
-    --altura-cards: 150px;
+    --margin-botton-secoes: 20px;
 }
 
 body{
+    min-width: 1300px;
+    max-width: 1440px;
     background-color: var(--cor-de-fundo);
     color: var(--azul-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    line-height: 24px;
+    
 }
 
 *{
@@ -36,63 +43,52 @@ a:link {
  }
 
 .cabecalho{
-    height: var(--altura-cabecalho);
     display: flex;
-    justify-content: space-between;
-    margin: 20px;
-    margin-bottom: 30px;
-
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: var(--margin-botton-secoes);
 }
 
 .foto{
     height: var(--altura-cabecalho);
-    //width: 150px;
     width 15%;
 }
 
 .foto__perfil{
     border-radius: 50%;
-    height: 100%;
-    width: 100%;
+    height: 230px;
+    width: 210px;;
+    object-fit: cover;
+    object-position: 10% 50%
 }
 
 .cabecalho__texto{
-    height: 100%;
-    //width: 500px;
     width: 50%;
 }
 
 .nome{
     height: 20%;
     width: 100%;
-    font-size: 32px;
+    font-size: 48px;
+    padding-top: 12px;
+    margin-bottom: var(--margin-botton-secoes);
 }
 
 .carta__apresentacao{
     background-color: var(--cinza-principal);
-    font-size: 20px;
-    line-height: 25px;
-    border-radius: 2%;
-    padding: 5px;
+    border-radius: 8px;
+    padding: 12px;
 }
 
 .contato{
-    height: 100%;
-    //width: 250px;
-   
     display: flex;
     flex-direction: column;
 }
 
-.contato__topico{
-    height: 20%;
-    font-size: 32px;
-}
-
 .contato__canais{
-    height: 80%;
     background-color: var(--cinza-principal);
-    border-radius: 2%;
+    border-radius: 8px;
 }
 
 .contato__elemento{
@@ -108,12 +104,14 @@ a:link {
 
 .contato__info{
     font-size: 20px;
-    margin: 5px;
+    padding: 12px;
 }
 
-.cursos__paragrafo{
-    font-size: 28px;
-    margin: 20px;
+.secao__paragrafo{
+    font-size: 36px;
+    padding: 12px;
+    margin-left: 16px;
+    margin-bottom: var(--margin-botton-secoes);
     border-bottom-style: solid;
     border-width: 5px;
     border-bottom-color: var(--cinza-principal);
@@ -124,60 +122,57 @@ a:link {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 30px;
+    margin-bottom: var(--margin-botton-secoes);
 }
 
 .cursos__card{
+    width: 370px;
     display: flex;
-    height: var(--altura-cards);
-    margin: 20px;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 20px;
 }
 
 .cursos__imagem{
-
+    width: 100px;
+    height: 100px;
+    margin-bottom: 16px;
 }
 
-.cursos__texto{
-    font-size: 20px;
-    line-height: 22px;
-    margin-left: 20px;
-    width: 300px;
-}
 
 .cursos__nome{
     font-size: 22px;
-    margin-bottom: 15px;
+    padding: 12px;
+    padding-bottom: 4px;
+    text-align: center;
 }
 
-.formacao__paragrafo{
-    font-size: 28px;
-    margin: 20px;
-    border-bottom-style: solid;
-    border-width: 5px;
-    border-bottom-color: var(--cinza-principal);
+.cursos__descricao{
+    padding: 12px;
+    padding-bottom: 4px;
+    text-align: center;
 }
 
 .formacao__estrutura{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 20px;
 }
 
 .formacao__dados{
     background-color: var(--cinza-principal);
     font-size: 18px;
-    border-radius: 2%;
+    border-radius: 8px;
     width:400px;
 }
 
 .formacao__texto{
     font-size: 24px;
-    margin: 5px;
-    margin-bottom: 10px;
+    padding: 12px;
+    padding-bottom: 4px;
 }
 
 .formacao__descricao{
-    font-size: 20px;
-    line-height: 22px;
-    margin: 5px;
+    padding: 12px;
 }

@@ -1,0 +1,2 @@
+Olá, bem vindo ao meu portfólio!
+Sou um desenvolvedor júnior em desenvolvimento buscando aperfeiçoar as minhas habilidades em programação Front-End, para atingir esse objetivo decidi criar diversos projetos interativos e práticos, que utilizem as ferramentas do navegador e do editor de código trazendo uma boa experiência para os usuários e garantindo uma boa legibilidade do código para que outros desenvolvedores possam testar os programas, gerando oportunidades de feedback para novas melhorias.
