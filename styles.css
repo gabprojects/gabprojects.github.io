@@ -1,23 +1,28 @@
 :root{
-    --cor-de-fundo: #212730;
-    --cinza-principal: #393E46;
-    --azul-principal: #00EDFA;
+    --cor-de-fundo: #121212;
+    --cinza-principal: #1F1B24;
+    --cor-titulo: #00D5E0;
+    --cor-texto: #F2F2F2;
 
     --fonte-principal: "Roboto";
 
-    --altura-cabecalho: 220px;
-    --margin-botton-secoes: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 body{
     min-width: 1300px;
     max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
     background-color: var(--cor-de-fundo);
-    color: var(--azul-principal);
+    color: var(--cor-texto);
     font-family: var(--fonte-principal);
     font-size: 16px;
     line-height: 24px;
-    
+    margin: 20px;
 }
 
 *{
@@ -27,11 +32,11 @@ body{
 }
 
 a:link {
-    color: var(--azul-principal);
+    color: var(--cor-titulo);
  }
  
  a:visited {
-     color: var(--azul-principal);
+     color: var(--cor-titulo);
  }
  
  a:hover {
@@ -46,19 +51,12 @@ a:link {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 20px;
-    margin-bottom: var(--margin-botton-secoes);
-}
-
-.foto{
-    height: var(--altura-cabecalho);
-    width 15%;
 }
 
 .foto__perfil{
     border-radius: 50%;
-    height: 230px;
-    width: 210px;;
+    height: 235px;
+    width: 235px;;
     object-fit: cover;
     object-position: 10% 50%
 }
@@ -70,9 +68,11 @@ a:link {
 .nome{
     height: 20%;
     width: 100%;
+    color: var(--cor-titulo);
     font-size: 48px;
+    font-weight: bold;
     padding-top: 12px;
-    margin-bottom: var(--margin-botton-secoes);
+    margin-bottom: 20px;
 }
 
 .carta__apresentacao{
@@ -104,26 +104,26 @@ a:link {
 }
 
 .contato__info{
+    color: var(--cor-titulo);
     font-size: 20px;
     padding: 12px;
 }
 
 .secao__paragrafo{
+    color: var(--cor-titulo);
     font-size: 36px;
-    padding: 12px;
-    margin-left: 16px;
-    margin-bottom: var(--margin-botton-secoes);
     border-bottom-style: solid;
     border-width: 5px;
     border-bottom-color: var(--cinza-principal);
+    margin: 24px;
+    padding-bottom: 8px;
 }
 
 .cursos__estrutura{
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: var(--margin-botton-secoes);
+    gap: 40px 0px;
 }
 
 .cursos__card{
@@ -131,49 +131,50 @@ a:link {
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    padding: 20px;
+    background-color: var(--cinza-principal);
 }
 
 .cursos__imagem{
     width: 100px;
     height: 100px;
-    margin-bottom: 16px;
+    margin-top: 8px;
 }
 
 
 .cursos__nome{
+    color: var(--cor-titulo);
     font-size: 22px;
-    padding: 12px;
-    padding-bottom: 4px;
     text-align: center;
+    margin-top: 8px;
 }
 
 .cursos__descricao{
-    padding: 12px;
-    padding-bottom: 4px;
     text-align: center;
+    margin: 8px;
 }
 
 .formacao__estrutura{
     display: flex;
     justify-content: space-evenly;
-    margin: 20px;
 }
 
 .formacao__dados{
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: var(--cinza-principal);
-    font-size: 18px;
     border-radius: 8px;
-    width:400px;
+    
 }
 
-.formacao__texto{
+.formacao__titulo{
+    margin-top: 8px;
+    color: var(--cor-titulo);
     font-size: 24px;
-    padding: 12px;
-    padding-bottom: 4px;
 }
 
 .formacao__descricao{
-    padding: 12px;
+    text-align: center;
+    margin: 8px;
 }
