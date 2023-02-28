@@ -1,119 +1,422 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio GN</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <div class="cabecalho">
-            <div class="foto">
-                <img class="foto__perfil" src="Imagens/foto_GN.jpg" alt="foto perfil Gabriel Nassimbeni">
-            </div>
-            <div class="cabecalho__texto">
-                <p class="nome">Gabriel Nassimbeni</p>
-                <p class="carta__apresentacao">Olá, bem vindo ao meu portfólio!<br>
-                    Sou um desenvolvedor júnior em desenvolvimento buscando aperfeiçoar as minhas habilidades em programação Front-End, para atingir esse objetivo decidi criar diversos projetos interativos e práticos, que utilizem as ferramentas do navegador e do editor de código trazendo uma boa experiência para os usuários e garantindo uma boa legibilidade do código para que outros desenvolvedores possam testar os programas, gerando oportunidades de feedback para novas melhorias.</p>
-            </div>
-            <div class="contato">
-                <ul class="contato__canais">
-                    <li class="contato__elemento">
-                        <img class="contato__icone" src="Imagens/whatsapp.png" alt="icone celular">
-                        <p class="contato__info">(11) 94572-0180</p>
-                    </li>
-                    <li class="contato__elemento">
-                        <img class="contato__icone" src="Imagens/email.png" alt="icone email">
-                        <p class="contato__info">gabriel39.doc@gmail.com</p>
-                    </li>
-                    <li class="contato__elemento">
-                        <img class="contato__icone" src="Imagens/linkedin.png" alt="icone celular">
-                        <a class="contato__info" href="https://www.linkedin.com/in/gabrieldoc/">www.linkedin.com/in/gabrieldoc/</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </header>
-    <section class="cursos">
-        <p class="secao__paragrafo">Formação Programação e Gestão</p>
-        <ul class="cursos__estrutura">
-            <li class="cursos__card">          
-                <img class="cursos__imagem" src="Imagens/html_icon.png" alt="ícone html">
-                <p class="cursos__nome">HTML e CSS</p>
-                <p class="cursos__descricao">Principais tecnologias atuais para a criação de qualquer site, determinando toda a estrutura, elementos e estilização do site.</p>
-            </li>
-            <li class="cursos__card">          
-                <img class="cursos__imagem" src="Imagens/css_icon.png" alt="ícone html">
-                <p class="cursos__nome">CSS Estilos</p>
-                <p class="cursos__descricao">Construção de páginas com as principais práticas de mercado como o mobile-first e a responsividade, utilisando ferramentas como o Grid e o Flexbox.</p>
-            </li>
-            <li class="cursos__card">          
-                <img class="cursos__imagem" src="Imagens/javascript_icon.png" alt="ícone html">
-                <p class="cursos__nome">JavaScript para Front-End</p>
-                <p class="cursos__descricao">Aplica dinamismo nas páginas, contadores, formulários, listas e animações normalmente utilizam JavaScript.</p>
-            </li>
-            <li class="cursos__card">          
-                <img class="cursos__imagem" src="Imagens/programacao_icon.png" alt="ícone html">
-                <p class="cursos__nome">Iniciante em Programação</p>
-                <p class="cursos__descricao">Algoritmos, fluxogramas, lógica, sistemas operacionais, diretórios e comandos para entendimento de todo o código.</p>
-            </li>
-            <li class="cursos__card">          
-                <img class="cursos__imagem" src="Imagens/gerente_agil_icon.png" alt="ícone html">
-                <p class="cursos__nome">Gerente Ágil</p>
-                <p class="cursos__descricao">Foco nas habilidades que um profissional trabalhando com métodos ágeis (Scrum, Kanban) deve possuir.</p>
-            </li>
-            <li class="cursos__card">          
-                <img class="cursos__imagem" src="Imagens/business_agility_icon.png" alt="ícone html">
-                <p class="cursos__nome">Business Agility</p>
-                <p class="cursos__descricao">É a capacidade das empresas se desenvolverem para se adaptar rapidamente às mudanças, entregando valor para seus clientes.</p>
-            </li>
-            <li class="cursos__card">          
-                <img class="cursos__imagem" src="Imagens/governanca_corporativa_icon.png" alt="ícone html">
-                <p class="cursos__nome">Governança Corporativa</p>
-                <p class="cursos__descricao">Aspectos da tomada de decisões de uma organização, estruturando e aplicando planos de ação.</p>
-            </li>
-            <li class="cursos__card">          
-                <img class="cursos__imagem" src="Imagens/comunicacao_icon.png" alt="ícone html">
-                <p class="cursos__nome">Comunicação</p>
-                <p class="cursos__descricao">Gestão da comunicação na confiança, relações interpessoais, gestão de conflitos, comunicação assertiva e oratória.</p>
-            </li>
-            <li class="cursos__card">          
-                <img class="cursos__imagem" src="Imagens/produtividade_icon.png" alt="ícone html">
-                <p class="cursos__nome">Produtividade</p>
-                <p class="cursos__descricao">Criação de hábitos, elaboração de rotina, priorização de tarefas, planejamento e gestão do tempo.</p>
-            </li>
-        </ul>
-    </section>
-    <section class="formacao">
-        <p class="secao__paragrafo">Formação Acadêmica</p>
-        <div class="formacao__estrutura">
-            <div class="formacao__dados">          
-                <p class="formacao__titulo">Eletrônica Automotiva</p>
-                <p class="formacao__descricao">Fatec Santo André</p>
-                <p class="formacao__descricao">Eletrônica embarcada em estruturas limitadas, motores elétricos automotivos, sistemas de controle, ferramentas computacionais, estatística, cálculo, física e tecnologias de comunicação.</p>
-            </div>
-            <div class="formacao__dados">          
-                <p class="formacao__titulo">Técnico em Eletrônica</p>
-                <p class="formacao__descricao">Etec Júlio de Mesquita</p>
-                <p class="formacao__descricao">Elétrica e eletrônica básica, como sensores, controladores e atuadores para sistemas de comunicação, residenciais e embarcados.</p>
-            </div>
-            <div class="formacao__dados">          
-                <p class="formacao__titulo">Técnico em Administração</p>
-                <p class="formacao__descricao">Etec Mauá</p>
-                <p class="formacao__descricao">Principais estruturas básicas de qualquer empresa, como contabilidade, produção, vendas, marketing, recursos humanos e logística.</p>
-            </div>
-        </div>
-    </section>
-    
-    <footer>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio Gabriel Nassimbeni</title>
+    <link rel="icon" type="image/x-icon" href="Imagens/favicon.ico">
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-    </footer>
+  <body>
+    <header class="header">
+      <div class="cabecalho">
+        <p id="inicio" class="cabecalho__botao">Início</p>
+        <p id="perfil" class="cabecalho__botao">Perfil</p>
+        <p id="habilidades" class="cabecalho__botao">Habilidades</p>
+        <p id="academico" class="cabecalho__botao">Acadêmico</p>
+        <p id="contato" class="cabecalho__botao">Contato</p>
+      </div>
+    </header>
+
+    <main class="main">
+      <section id="inicioSecao" class="apresentacao">
+        <p class="apresentacao__nome">
+          Olá, Eu sou Gabriel Nassimbeni Desenvolvedor Front End
+        </p>
+        <p class="apresentacao__texto">
+          Seja muito bem vindo ao meu portifólio!, aqui irei descrever minha
+          jornada como programador, habilidades, inspirações e mais...
+        </p>
+        <div id="botaoComecar" class="apresentacao__botao">
+          <p>Começar a Jornada</p>
+        </div>
+      </section>
+
+      <section id="perfilSecao" class="perfil">
+        <p class="secao__paragrafo">Perfil</p>
+        <div class="perfil__estrutura">
+          <div class="foto">
+            <img
+              class="foto__perfil"
+              src="Imagens/foto_GN.jpg"
+              alt="foto perfil Gabriel Nassimbeni"
+            />
+          </div>
+
+          <div class="perfil__texto">
+            <p class="perfil__paragrafo">
+              Sou uma pessoa criativa, comunicativa e empática que busca 
+              sempre aprender e evoluir, tanto as habilidades técnicas, como 
+              as habilidades comportamentais, construindo um ambiente 
+              divertido e produtivo.
+            </p>
+            <p class="perfil__paragrafo">
+              Como plano de carreira, quero ser um ótimo programador, capaz 
+              de entender as necessidades do cliente, e aplicar as ferramentas 
+              de desenvolvimento para entregar produtos de melhor qualidade.
+            </p>
+            <p class="perfil__paragrafo">
+              Com esse objetivo criei essa página para que as pessoas possam 
+              acompanhar o meu desenvolvimento e das minhas habilidades como 
+              desenvolvedor, estimular o feedback é fundamental nessa área.
+            </p>
+            <p class="perfil__paragrafo">
+              Agradeço desde já o interesse em minha pessoa e nos meus projetos, 
+              abaixo descrevo minhas habilidades e trajetória, caso tenha interesse 
+              em trabalhar comigo, entre em contato pela aba "Contato".
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="habilidadesSecao" class="cursos">
+        <p class="secao__paragrafo">Habilidades</p>
+
+        <ul class="cursos__estrutura">
+          <li class="cursos__card">
+            <div class="cursos__frame">
+              <img
+                class="cursos__imagem"
+                src="Imagens/html_icon.png"
+                alt="ícone html"
+              />
+            </div>
+            <p class="cursos__nome">HTML</p>
+            <p class="cursos__descricao">
+              Utilizo para a estruturação e organização do conteúdo das páginas
+              web, definindo cabeçalho, corpo, seções e rodapé, com a semântica
+              apropriada para ajudar usuários e programadores a entender toda a
+              estrutura e garantir uma boa pontuação SEO ao site.
+            </p>
+          </li>
+
+          <li class="cursos__card">
+            <div class="cursos__frame">
+              <img
+                class="cursos__imagem"
+                src="Imagens/css_icon.png"
+                alt="ícone css"
+              />
+            </div>
+            <p class="cursos__nome">CSS</p>
+            <p class="cursos__descricao">
+              O CSS é fundamental para que eu tenha um controle preciso da
+              aparência visual dos elementos HTML, como cores, fontes, tamanhos
+              de texto, etc. Também auxilia a responsividade em minhas páginas,
+              adaptando a página para celulares, tablets e monitores.
+            </p>
+          </li>
+
+          <li class="cursos__card">
+            <div class="cursos__frame">
+              <img
+                class="cursos__imagem"
+                src="Imagens/javascript_icon.png"
+                alt="ícone javaScript"
+              />
+            </div>
+            <p class="cursos__nome">JavaScript</p>
+            <p class="cursos__descricao">
+              Ao conhecer JavaScript, posso manipular o DOM de uma página,
+              adicionando, removendo e alterando elementos da página sem a
+              necessidade de recarrega-la, isso permite criar diversas
+              interações dinâmicas, como menus suspensos, animações e validação
+              de formulários.
+            </p>
+          </li>
+
+          <li class="cursos__card">
+            <div class="cursos__frame">
+              <img
+                class="cursos__imagem"
+                src="Imagens/figma_icon.png"
+                alt="ícone figma"
+              />
+            </div>
+            <p class="cursos__nome">Figma</p>
+            <p class="cursos__descricao">
+              Permite entender melhor os aspectos do design de uma interface de
+              usuário, como a estrutura, a hierarquia de informações, as cores e
+              as fontes, isso melhora a qualidade do meu código e reduz o tempo
+              gasto na construção e atualização das páginas.
+            </p>
+          </li>
+
+          <li class="cursos__card">
+            <div class="cursos__frame">
+              <img
+                class="cursos__imagem"
+                src="Imagens/scrum_icon.png"
+                alt="ícone scrum"
+              />
+            </div>
+            <p class="cursos__nome">Scrum</p>
+            <p class="cursos__descricao">
+              Ajuda a melhorar o meu desempenho em uma equipe ágil e nas sprints
+              de desenvolvimento, trabalhando de forma auto-organizada com
+              outros membros, auxiliando na determinação da complexidade e tempo
+              necessário para desenvolver os itens do Product Backlog.
+            </p>
+          </li>
+
+          <li class="cursos__card">
+            <div class="cursos__frame">
+              <img
+                class="cursos__imagem"
+                src="Imagens/agile_icon.png"
+                alt="ícone agile"
+              />
+            </div>
+            <p class="cursos__nome">Agile</p>
+            <p class="cursos__descricao">
+              Utilizo os quatro valores do manifesto ágil para guiar a forma
+              como desenvolvo meus projetos, valores como “indivíduos e
+              interações mais que processos e ferramentas”, “colaboração com o
+              cliente mais que negociação de contratos” são fundamentais nesse
+              meio.
+            </p>
+          </li>
+
+          <li class="cursos__card">
+            <div class="cursos__frame">
+              <img
+                class="cursos__imagem"
+                src="Imagens/github_icon2.png"
+                alt="ícone github"
+              />
+            </div>
+            <p class="cursos__nome">Github</p>
+            <p class="cursos__descricao">
+              O Git me permite compartilhar o código dos meus projetos, trabalhar 
+              em equipe e utilizar o versionamento para ter acesso a todas as 
+              modificações realizadas e participar em projetos de código aberto, 
+              ajudando outros desenvolvedores.
+            </p>
+          </li>
+
+          <li class="cursos__card">
+            <div class="cursos__frame">
+              <img
+                class="cursos__imagem"
+                src="Imagens/jira_icon.png"
+                alt="ícone jira"
+              />
+            </div>
+            <p class="cursos__nome">Jira</p>
+            <p class="cursos__descricao">
+              No Jira posso melhorar a comunicação nas sprints de desenvolvimento 
+              do projeto com os demais integrantes da equipe, estabelecendo as 
+              tarefas, determinando prazos, reportando e rastreando problemas no 
+              código para que as atualizações e correções sejam feitas rapidamente.
+            </p>
+          </li>
+
+          <li class="cursos__card">
+            <div class="cursos__frame">
+              <img
+                class="cursos__imagem"
+                src="Imagens/ux_icon.png"
+                alt="ícone ux"
+              />
+            </div>
+            <p class="cursos__nome">UX & UI</p>
+            <p class="cursos__descricao">
+              Conhecendo mais sobre o design de interface do usuário, posso compreender
+               melhor os requisitos do projeto e as necessidades do usuário final, bem 
+               como melhorar a interface dos meus próprios projetos para atrair mais 
+               pessoas para conhecer o meu trabalho.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section id="academicoSecao" class="formacao">
+        <p class="secao__paragrafo">Jornada Acadêmica</p>
+
+        <div class="formacao__estrutura">
+          <div class="formacao__formacao">
+            <div class="formacao__card _direita">
+              <p class="formacao__curso">Técnico em Eletrônica</p>
+              <p class="formacao__texto">Etec Júlio de Mesquita</p>
+              <p class="formacao__texto">
+                Começo da minha jornada na área de desenvolvimento tecnológico,
+                aqui aprendi a fazer reparos, instalação e manutenção em
+                equipamentos eletrônicos, também aprendi a programar
+                microcontroladores para que realizassem tarefas específicas.
+              </p>
+            </div>
+            <div class="indicador__circulo"></div>
+            <img
+              class="formacao__imagem"
+              src="Imagens/etec_julio_mesquita.png"
+              alt="ícone html"
+              />
+            </div>
+            
+            <div class="formacao__formacao">
+              <img
+              class="formacao__imagem"
+              src="Imagens/fatec_santo_andre.png"
+              alt="ícone html"
+            />
+            <div class="indicador__circulo"></div>
+            <div class="formacao__card">
+              <p class="formacao__curso">Eletrônica Automotiva</p>
+              <p class="formacao__texto">Fatec Santo André</p>
+              <p class="formacao__texto">
+                No curso conheci os principais componentes elétricos e
+                eletrônicos de um veículo, configurei sensores, controladores e
+                atuadores, eletrônicos e mecânicos, conhecendo suas capacidades
+                e limitações, desenvolvendo sistemas e programas.
+              </p>
+            </div>
+          </div>
+
+          <div class="formacao__formacao">
+            <div class="formacao__card _direita">
+              <p class="formacao__curso">Técnico em Administração</p>
+              <p class="formacao__texto">Etec Mauá</p>
+              <p class="formacao__texto">
+                Aqui conheci as principais estruturas que compõem uma empresa,
+                como RH, contabilidade, logística, produção, marketing e vendas,
+                e como a comunicação e o planejamento são fundamentais para o
+                trabalho em equipe e o crescimento da organização.
+              </p>
+            </div>
+            <div class="indicador__circulo"></div>
+            <img
+              class="formacao__imagem"
+              src="Imagens/etec_maua.png"
+              alt="ícone html"
+            />
+          </div>
+
+          <div class="formacao__formacao">
+            <img
+              class="formacao__imagem"
+              src="Imagens/alura.png"
+              alt="ícone html"
+            />
+            <div class="indicador__circulo"></div>
+            <div class="formacao__card">
+              <p class="formacao__curso">Desenvolvedor Front End</p>
+              <p class="formacao__texto">Alura</p>
+              <p class="formacao__texto">
+                As formações de desenvolvedor Front-End da Alura permitem que eu
+                tenha toda a fundamentação necessária para construir diversas
+                páginas web dinâmicas e interativas, além disso, continuo
+                melhorando minhas habilidades com novos cursos.
+              </p>
+            </div>
+          </div>
+
+          <div class="indicador__barra"></div>
+        </div>
+      </section>
+
+      <section id="contatoSecao" class="contato">
+        <p class="secao__paragrafo">Contato</p>
+
+        <div class="contato__estrutura">
+          <div class="contato__container">
+            <ul class="contato__canais">
+              <li class="contato__elemento">
+                <img
+                  class="contato__icone"
+                  src="Imagens/celular_icon.png"
+                  alt="icone celular"
+                />
+                <p class="contato__info">(11) 94572-0180</p>
+              </li>
+
+              <li class="contato__elemento">
+                <img
+                  class="contato__icone"
+                  src="Imagens/email_icon.png"
+                  alt="icone email"
+                />
+                <p class="contato__info">gabriel39.doc@gmail.com</p>
+              </li>
+
+              <li class="contato__elemento">
+                <img
+                  class="contato__icone"
+                  src="Imagens/linkedin_icon.png"
+                  alt="icone celular"
+                />
+                <a
+                  class="contato__info"
+                  href="https://www.linkedin.com/in/gabrieldoc/"
+                  >linkedin.com/in/gabrieldoc</a
+                >
+              </li>
+
+              <li class="contato__elemento">
+                <img
+                  class="contato__icone"
+                  src="Imagens/github_icon.png"
+                  alt="icone celular"
+                />
+                <a class="contato__info" href="https://github.com/gabprojects"
+                  >github.com/gabprojects</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <p class="contato__extra">
+              <span class="contato__destaque">Gostou do meu portifólio?</span
+              ><br />
+              <span> Me envie sua opnião/sugestão</span><br /><br />
+              <span class="contato__destaque">Quer me contratar?</span><br />
+              <span>
+                Vamos conversar, me mande uma mensagem, estou buscando vagas de
+                Desenvolvedor Jr. e posso estar agregando seu time</span
+              ><br /><br />
+              <span class="contato__destaque"
+                >Você pode me ajudar muito compartilhando meu portifólio em suas
+                redes</span
+              >
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="indice">
+        <div class="indice__info">
+          <div class="indice__circulo" id="inicioControl">
+            <span class="indice__tooltip">Início</span>
+          </div>
+
+          <div class="indice__circulo" id="perfilControl">
+            <span class="indice__tooltip">Perfil</span>
+          </div>
+
+          <div class="indice__circulo" id="habilidadesControl">
+            <span class="indice__tooltip">Habilidades</span>
+          </div>
+
+          <div class="indice__circulo" id="academicoControl">
+            <span class="indice__tooltip">Acadêmico</span>
+          </div>
+
+          <div class="indice__circulo" id="contatoControl">
+            <span class="indice__tooltip">Contato</span>
+          </div>
+        </div>
+
+        <div class="indice__barra"></div>
+      </div>
+    </main>
     <script src="app/main.js"></script>
-</body>
+  </body>
 </html>
